@@ -6,12 +6,16 @@ Project ini digunakan untuk membuat infrastruktur EC2 cluster di AWS menggunakan
 
 Infrastructure yang dibuat:
 
-* 1 Master Node
-* Beberapa Worker Node di Availability Zone berbeda
+* 1 Server Master 
+* Beberapa Server di Availability Zone berbeda
 
 Project ini menggunakan pendekatan **Infrastructure as Code (IaC)** dan mengikuti praktik **arsitektur cloud yang aman (private subnet)**.
 
 ---
+
+## 🧱 Architecture Diagram
+
+![Architecture](images/architecture.png)
 
 ## 🧱 Arsitektur
 
@@ -76,6 +80,7 @@ terraform plan
 ```
 
 Akan muncul jumlah resource yang akan dibuat.
+![resource](images/resource.png)
 
 ---
 
@@ -92,6 +97,11 @@ yes
 ```
 
 ---
+## 📸 EC2 Cluster Result
+
+Berikut adalah hasil deployment EC2 menggunakan Terraform dengan arsitektur Multi-AZ:
+
+![EC2 Cluster](images/ec2-running.png)
 
 ## 📊 Hasil
 
