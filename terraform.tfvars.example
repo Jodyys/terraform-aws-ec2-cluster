@@ -1,0 +1,11 @@
+aws_region         = "us-east-1"
+vpc_id             = "vpc-xxxx"
+security_group_id  = "sg-xxxx"
+
+private_subnet_ids = [
+  "subnet-xxxx",
+  "subnet-yyyy"
+]
+
+ami      = "ami-xxxx"
+key_name = "your-key"
