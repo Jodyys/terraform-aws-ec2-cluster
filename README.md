@@ -15,7 +15,7 @@ Project ini menggunakan pendekatan **Infrastructure as Code (IaC)** dan mengikut
 
 ## 🧱 Architecture Diagram
 
-![Architecture](images/architecturee.png)
+![Architecture](images/architecture.png)
 
 ## 🧱 Arsitektur
 
